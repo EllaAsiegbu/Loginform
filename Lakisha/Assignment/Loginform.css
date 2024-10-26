@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.imgdiv {
+  background-image: url("purpler-guy.jpg");
+  background-size: contain;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  width: 22%;
+  height: 50vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

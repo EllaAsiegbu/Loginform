@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: linear-gradient(to right, rgb(255, 25, 0), yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.imgdiv {
+  background-image: url("purpler-guy.jpg");
+  background-size: contain;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  width: 22%;
+  height: 50vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 195px;
+  justify-content: space-between;
+}
+.imgdiv > p {
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+  flex-direction: column-reverse;
+}
+
+.formdiv {
+  background-color: white;
+  height: 80vh;
+  width: 30%;
+  margin-top: 20px;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  margin-top: 20px;
+}
+.btndiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.3rem;
+}
+button {
+  width: 40%;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+}
